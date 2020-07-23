@@ -47,8 +47,8 @@ public class SmsUtil {
     private Environment env;
     
     
-  //  static final String accessKeyId = "LTAI4GC2DGLzTsd88gJc2hLp";
-  //  static final String accessKeySecret = "CVnU3iEY2o0B3hfDCZwJrjOyBx4tRv";
+  //  static final String accessKeyId = "";
+  //  static final String accessKeySecret = "";
 
     public SendSmsResponse sendSms(String mobile,String template_code,String sign_name,String param) throws ClientException {
 
